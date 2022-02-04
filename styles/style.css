@@ -29,6 +29,8 @@ h2 {
 img {
   border-radius: 100px;
   border: 1px solid black;
+  animation: backInRight;
+  animation-duration: 2s;
 }
 
 .project-btn {
@@ -42,6 +44,6 @@ img {
 }
 
 .btn:hover {
-  animation: pulse;
+  animation: rubberBand;
   animation-duration: 2s;
 }
