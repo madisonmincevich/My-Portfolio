@@ -1,3 +1,47 @@
 body {
-  background-color: aqua;
+  background-color: white;
+}
+
+.heading {
+  margin-top: 175px;
+  margin-left: 100px;
+}
+
+p {
+  font-size: 30px;
+  line-height: 0px;
+  margin: 0px;
+  font-family: "PT Serif", serif;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "PT Serif", serif;
+}
+
+img {
+  border-radius: 100px;
+  border: 1px solid black;
+}
+
+.project-btn {
+  display: block;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 100px;
+  font-family: "PT Serif", serif;
+}
+
+.btn:hover {
+  animation: pulse;
+  animation-duration: 2s;
 }
