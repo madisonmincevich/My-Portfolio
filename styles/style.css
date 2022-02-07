@@ -38,14 +38,23 @@ body {
     font-size: 20px;
   }
 
-  .middle p {
+  .middle-section {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .middle-section a {
     margin: auto;
-    display: inline;
-    color: blue;
+    margin-bottom: 20px;
+  }
+
+  .middle-section .middle {
+    padding: 50px;
   }
 
   .project {
     margin: auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -75,6 +84,13 @@ h2 {
   font-size: 20px;
   animation: slideInLeft;
   animation-duration: 3s;
+}
+
+.middle-button {
+  font-family: "PT Serif", serif;
+  background-color: #a7b882 !important;
+  color: white;
+  margin-left: 220px;
 }
 
 .projects {
