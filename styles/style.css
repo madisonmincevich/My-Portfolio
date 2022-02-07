@@ -1,10 +1,52 @@
 body {
-  background-color: white;
+  background-color: #e8e7e3;
 }
 
 .heading {
   margin-top: 175px;
   margin-left: 100px;
+  position: absolute;
+  animation: slideInLeft;
+  animation-duration: 3s;
+}
+
+.heading-img {
+  display: block;
+  width: 50%;
+  margin-left: 50%;
+  animation: slideInRight;
+  animation-duration: 3s;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    width: 80%;
+    margin: 90px auto 30px;
+    display: block;
+  }
+
+  .heading-img {
+    display: none;
+  }
+
+  .heading h1 {
+    font-size: 40px;
+  }
+
+  .heading p,
+  h2 {
+    font-size: 20px;
+  }
+
+  .middle p {
+    margin: auto;
+    display: inline;
+    color: blue;
+  }
+
+  .project {
+    margin: auto;
+  }
 }
 
 p {
@@ -19,6 +61,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  position: relative;
 }
 
 h2 {
@@ -26,24 +69,51 @@ h2 {
   font-family: "PT Serif", serif;
 }
 
-img {
-  border-radius: 100px;
-  border: 1px solid black;
-  animation: backInRight;
-  animation-duration: 2s;
-}
-
-.project-btn {
-  display: block;
+.middle {
   text-align: center;
+  padding: 120px;
+  font-size: 20px;
+  animation: slideInLeft;
+  animation-duration: 3s;
 }
 
-.btn {
-  padding: 10px 100px;
+.projects {
+  padding: 20px;
+}
+
+.project-button {
+  font-family: "PT Serif", serif;
+  background-color: #a7b882 !important;
+  margin: 30px auto;
+  color: white;
+}
+
+section {
   font-family: "PT Serif", serif;
 }
 
-.btn:hover {
-  animation: rubberBand;
-  animation-duration: 2s;
+.skills {
+  padding: 200px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin: 0 auto;
+}
+
+.skills p {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.borders {
+  border: 1px solid none;
+  background-color: #fceee9;
+  border-radius: 10px;
+  padding: 30px;
+}
+.top-skills {
+  padding-left: 30px;
+}
+
+.bottom-skills {
+  padding-left: 30px;
 }
