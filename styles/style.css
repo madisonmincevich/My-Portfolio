@@ -239,3 +239,36 @@ li a {
 li a:hover {
   color: grey;
 }
+
+/*footer section*/
+
+footer {
+  margin: 60px 0;
+  display: block;
+  font-family: "PT Serif", serif;
+}
+
+footer .contact-box {
+  padding: 30px 100px;
+  margin: 150px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.contact-me {
+  padding: 15px 30px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  padding: 10px 14px;
+}
