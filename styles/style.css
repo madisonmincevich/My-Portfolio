@@ -209,3 +209,33 @@ section {
     margin-bottom: 30px;
   }
 }
+
+/*contact section*/
+
+.contact-title {
+  font-size: 50px;
+  animation: slideInDown;
+  animation-duration: 3s;
+  padding: 100px;
+}
+
+ul {
+  list-style: none;
+  animation: slideInUp;
+  animation-duration: 3s;
+}
+
+ul:hover {
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  color: black;
+}
+
+li a:hover {
+  color: grey;
+}
