@@ -272,3 +272,7 @@ footer .social-links a {
   color: black;
   padding: 10px 14px;
 }
+
+.signature {
+  line-height: 20px;
+}
