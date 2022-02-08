@@ -185,3 +185,27 @@ section {
 .bottom-skills {
   padding-left: 30px;
 }
+
+/*work section*/
+
+.buttons {
+  margin: 100px;
+}
+.work-button {
+  font-family: "PT Serif", serif;
+  background-color: #a7b882 !important;
+  color: white;
+  margin-left: 200px;
+}
+
+@media (max-width: 600px) {
+  .buttons {
+    margin: auto;
+  }
+
+  .work-button {
+    display: block;
+    margin-left: 1px;
+    margin-bottom: 30px;
+  }
+}
