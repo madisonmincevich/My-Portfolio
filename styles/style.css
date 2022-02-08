@@ -216,10 +216,10 @@ section {
   font-size: 50px;
   animation: slideInDown;
   animation-duration: 3s;
-  padding: 100px;
+  padding: 50px;
 }
 
-ul {
+.contact-icon {
   list-style: none;
   animation: slideInUp;
   animation-duration: 3s;
