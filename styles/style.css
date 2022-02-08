@@ -12,7 +12,7 @@ body {
 
 .heading-img {
   display: block;
-  width: 50%;
+  width: 100%;
   margin-left: 50%;
   animation: slideInRight;
   animation-duration: 3s;
@@ -107,24 +107,76 @@ h2 {
 section {
   font-family: "PT Serif", serif;
 }
+/*about section*/
+
+.main {
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.about {
+  line-height: normal;
+  font-size: 20px;
+  animation: slideInLeft;
+  animation-duration: 3s;
+}
+
+.title {
+  font-size: 50px;
+  animation: slideInLeft;
+  animation-duration: 3s;
+}
+
+.maddie {
+  margin: auto;
+  margin-left: 150px;
+  animation: slideInRight;
+  animation-duration: 3s;
+}
+
+@media (max-width: 600px) {
+  .maddie {
+    margin: auto;
+  }
+
+  .about-button {
+    display: block;
+  }
+}
+
+.touch {
+  color: grey;
+  text-decoration: none;
+}
+
+.touch:hover {
+  color: white;
+}
+
+.about-button {
+  font-family: "PT Serif", serif;
+  background-color: #a7b882 !important;
+  color: white;
+  margin: 50px auto;
+}
 
 .skills {
-  padding: 200px;
-  padding-left: 1px;
-  padding-right: 1px;
-  margin: 0 auto;
+  padding: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  transform: none;
 }
 
 .skills p {
   padding: 30px;
   font-size: 20px;
+  animation: fadeIn;
+  animation-duration: 7s;
 }
 
 .borders {
-  border: 1px solid none;
   background-color: #fceee9;
-  border-radius: 10px;
-  padding: 30px;
+  padding: 60px;
 }
 .top-skills {
   padding-left: 30px;
