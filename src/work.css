@@ -114,9 +114,12 @@ i:hover {
     margin-left: 0px;
   }
 
-  .description {
-    text-align: left;
-    margin: 20px;
+  .description a {
+    margin-left: 0px;
+  }
+
+  iframe {
+    margin-top: 15px;
   }
 
   footer {
