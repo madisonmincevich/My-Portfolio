@@ -8,13 +8,28 @@ body {
   font-size: 20px;
   font-family: "PT Serif", serif;
 }
+
+.img {
+  background: url("https://images.pexels.com/photos/6430093/pexels-photo-6430093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
 header {
   margin-top: 100px;
+  padding: 0px;
   margin-right: 80px;
 }
 
 h2 {
   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 p {
@@ -29,9 +44,8 @@ p {
 }
 
 .skills {
-  margin: 80px;
-
-  padding: 60px;
+  margin: 50px;
+  padding: 50px;
 }
 
 .skills p:hover {
@@ -41,6 +55,8 @@ p {
 h4 {
   padding: 30px;
   font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .certs {

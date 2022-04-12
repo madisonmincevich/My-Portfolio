@@ -1,5 +1,10 @@
 body {
-  background-color: #747c8c;
+  background: url("https://images.pexels.com/photos/6430093/pexels-photo-6430093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white;
   font-family: "PT Serif", serif;
 }
@@ -61,4 +66,23 @@ footer {
 
 .credits {
   font-size: 8px;
+}
+
+@media (max-width: 650px) {
+  .navbar-nav {
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    background-color: #293340;
+    padding-left: 10px;
+    max-width: 25%;
+    border-radius: 10px;
+  }
+
+  .contact h1 {
+    margin-bottom: 40px;
+  }
+
+  .contact h3 {
+    margin-bottom: 30px;
+  }
 }
