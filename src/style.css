@@ -99,8 +99,15 @@ a:hover {
   padding-left: 100px;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
 h4 {
   font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 footer {
