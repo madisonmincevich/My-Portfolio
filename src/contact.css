@@ -1,0 +1,64 @@
+body {
+  background-color: #747c8c;
+  color: white;
+  font-family: "PT Serif", serif;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+}
+
+h1 {
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.contact i {
+  font-size: 60px;
+}
+
+.contact a:hover {
+  color: #f48fb1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+  color: white;
+}
+
+.credits a {
+  text-decoration: none;
+  color: #f48fb1;
+}
+
+a:hover {
+  color: #ff4081;
+}
+
+footer {
+  background-color: #293340;
+  font-family: "PT Serif", serif;
+}
+
+.footer-links {
+  font-size: 30px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+.credits {
+  font-size: 8px;
+}

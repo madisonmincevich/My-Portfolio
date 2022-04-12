@@ -10,7 +10,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,26 +17,31 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="src/work.css" />
+
+    <script
+      src="https://kit.fontawesome.com/b006aebb1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="shortcut icon"
+      type="image/jpg"
+      href="https://img.icons8.com/dotty/2x/m.png"
     />
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <script src="https://kit.fontawesome.com/b006aebb1e.js" crossorigin="anonymous"></script>
-
-    <link rel="shortcut icon" type="image/jpg" href="https://img.icons8.com/dotty/2x/m.png"/>
-
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Projects | Maddie Mincevich</title>
+    <title>My Work | Maddie Mincevich</title>
   </head>
   <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="https://img.icons8.com/dotty/2x/m.png" class="logo" alt="" width="50"/>
-        </a>
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./images/logo.png" class="logo ms-4" alt="" width="50"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -50,160 +54,211 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html" title="Home">Home</a>
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-4">
+            <li class="nav-item pe-5">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >home</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="work.html" title="Work">Work</a>
+            <li class="nav-item pe-5">
+              <a class="nav-link active" aria-current="page" href="./work.html"
+                >work</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html" title="About Me">About Me</a>
+            <li class="nav-item pe-5">
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >about</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" title="Contact Me">Contact Me</a>
+            <li class="nav-">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./contact.html"
+                >contact</a
+              >
             </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <div class="main container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="title text-center p-5">take a look at my projects...</h2>
+    <header>
+      <h1>My work</h1>
+    </header>
+    <div class="work">
+      <div class="container-fluid">
+        <div class="row mb-4">
+          <div class="col-sm-6">
+            <iframe
+              src="https://frabjous-capybara-9108cc.netlify.app/"
+              width="550"
+              height="350"
+              class="rounded shadow"
+            ></iframe>
+          </div>
+          <div class="col-sm-6">
+            <div class="description">
+              <h2>React Dictionary App</h2>
+              <p>Built with React.js, HTML, CSS, and Bootstrap</p>
+              <p>Using Free Dictionary's API and Pexels' API</p>
+              <a
+                href="https://frabjous-capybara-9108cc.netlify.app/"
+                target="_blank"
+                class="view me-4"
+                >VIEW LIVE</a
+              >
+              <a
+                href="https://github.com/madisonmincevich/dictionary-app"
+                target="_blank"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="buttons row">
-        <div class="col-sm-6">
-          <a href="about.html" class="work-button btn btn-lg shadow" title="About Me"
-            >About Me</a
-          >
+        <hr />
+        <div class="row mb-4">
+          <div class="col-sm-6">
+            <div class="description">
+              <h2>React Weather App</h2>
+              <p>Built with React.js, HTML, CSS, and Bootstrap</p>
+              <p>Using OpenWeatherMap's API</p>
+              <a
+                href="https://eager-agnesi-4f4f3a.netlify.app/"
+                target="_blank"
+                class="view me-4"
+                >VIEW LIVE</a
+              >
+              <a
+                href="https://github.com/madisonmincevich/weather-react-app"
+                target="_blank"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <iframe
+              src="https://eager-agnesi-4f4f3a.netlify.app/"
+              width="550"
+              height="350"
+              class="rounded shadow"
+            ></iframe>
+          </div>
         </div>
-        <div class="col-sm-6">
-          <a href="contact.html" class="work-button btn btn-lg shadow" title="Contact Me"
-            >Contact Me</a
-          >
+        <hr />
+        <div class="row mb-4">
+          <div class="col-sm-6">
+            <iframe
+              src="https://sleepy-edison-fc074e.netlify.app/"
+              width="550"
+              height="350"
+              class="rounded shadow"
+            ></iframe>
+          </div>
+          <div class="col-sm-6">
+            <div class="description">
+              <h2>JavaScript Weather App</h2>
+              <p>Built with JavaScript, HTML, CSS, and Bootstrap</p>
+              <p>Using OpenWeatherMap's API</p>
+              <a
+                href="https://sleepy-edison-fc074e.netlify.app/"
+                target="_blank"
+                class="view me-4"
+                >VIEW LIVE</a
+              >
+              <a
+                href="https://github.com/madisonmincevich/Weather-Widget"
+                target="_blank"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <div class="description">
+              <h2>Crystals Landing Page</h2>
+              <p>Built with HTML and CSS</p>
+              <a
+                href="https://frabjous-capybara-9108cc.netlify.app/"
+                target="_blank"
+                class="view me-4"
+                >VIEW LIVE</a
+              >
+              <a
+                href="https://github.com/madisonmincevich/dictionary-app"
+                target="_blank"
+                >VIEW CODE</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <iframe
+              src="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/619/999/original/FinalBasics.html?1639615746"
+              width="550"
+              height="350"
+              class="rounded shadow"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="projects row">
-        <div class="col-sm-6">
-          <h2 class="fw-bold">Dictionary Project</h2>
-          <section>
-            Responsive dictionary app built with React.js, HTML, CSS, and API integration. 
-          </section>
-          <a
-            href="https://frabjous-capybara-9108cc.netlify.app/"
-            class="project-button btn btn-lg shadow "
-            target="_blank"
-            title="View Crystals Project"
-          >
-            View Dictionary Project
-          </a>
+    <footer class="pt-3 pb-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-10">
+            <a href="./index.html" alt="Home"
+              ><img
+                src="./images/logo.png"
+                class="logos ms-4"
+                alt=""
+                width="50"
+            /></a>
+          </div>
+          <div class="col-sm-2">
+            <ul class="footer-links d-flex list-unstyled">
+              <li class="pe-3">
+                <a href="mailto:maddiebooldridge@gmail.com" alt="Email"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </li>
+              <li class="pe-3">
+                <a
+                  href="https://www.linkedin.com/in/madison-mincevich"
+                  alt="LinkedIn"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/madisonmincevich"
+                  alt="GitHub"
+                  target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-sm-6">
-          <img src="images/dictionarypic.png" class="project img-fluid rounded shadow mb-5"
-            alt="Dictionary" />
-        </div>
-        <div class="col-sm-6">
-          <img
-            src="images/reactweather.png"
-            class="project img-fluid rounded shadow mb-5"
-            alt="React Weather"
-          />
-        </div>
-        <div class="col-sm-6">
-          <h2 class="fw-bold">React Weather Project</h2>
-          <section>
-            Response weather app built with React.js, HTML, CSS, and API integration.
-          </section>
-          <a
-            href="https://eager-agnesi-4f4f3a.netlify.app/"
-            class="project-button btn btn-lg shadow"
-            target="_blank"
-            title="View React Weather Project"
-          >
-            View React Weather Project
-          </a>
-        </div>
-        <div class="col-sm-6">
-          <h2 class="fw-bold">Crystals Project</h2>
-          <section>
-            My first coding project built with HTML and CSS. Best viewed on a
-            desktop/laptop.
-          </section>
-          <a
-            href="https://www.shecodes.io/workshops/shecodes-basics-6d9ccdc4-eeda-4d48-ba36-3d0d14341104/projects/619999"
-            class="project-button btn btn-lg shadow"
-            target="_blank"
-            title="View Crystals Project"
-          >
-            View Crystals Project
-          </a>
-        </div>
-        <div class="col-sm-6">
-          <img
-            src="images/crystals.png"
-            class="project img-fluid rounded shadow"
-            alt="Crystals"
-          />
-        </div>
-      
-      </div>
-      <div class="projects row">
-     
-        <div class="col-sm-6">
-          <img
-            src="images/weather.png"
-            class="project img-fluid rounded shadow"
-            alt="weather app"
-          />
-        </div>
-           <div class="col-sm-6">
-          <h2 class="fw-bold">Weather App</h2>
-          <section>
-            Interactive weather app built with HTML, CSS, and JavaScript with
-            API integration. Best viewed on a desktop/laptop.
-          </section>
-          <a
-            href="https://www.shecodes.io/workshops/shecodes-plus-3ff7a1be-6209-4981-80b1-b08a05d734da/projects/632602"
-            class="project-button btn btn-lg shadow"
-            target="_blank"
-            title="View Weather App"
-          >
-            View Weather App
-          </a>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="credit text-center">
+              This project was coded by Maddie Mincevich
+            </div>
+            <div class="credits text-center">
+              Logos by <a href="https://icons8.com/" alt="Logo Credit">Icon8</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-        <footer>
-      <div class="contact-box justify-content-around mb-5 d-none d-md-flex">
-        <div>
-        <h4>
-          Work Inquiry
-        </h4>
-        <h5 class="text-muted">
-          Let's work together
-        </h5>
-        </div> 
-      <div>
-        <a href="contact.html" class="contact-me btn btn-success mt-3" title="Contact Me">Contact Me</a>
-      </div>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href="mailto:maddiebooldridge@gmail.com" class="email-link" title="Email Me"><i class="fas fa-envelope fa-2x"></i></a>
-        <a
-            href="https://www.linkedin.com/in/madison-mincevich" title="LinkedIn"
-            target="_blank"
-            ><i class="fab fa-linkedin fa-2x"></i></a
-          >
-          <a
-            href="https://github.com/madisonmincevich" title="GitHub"
-            target="_blank"
-            ><i class="fab fa-github fa-2x"></i></a
-          >
-      </div>
-      <p class="signature text-center fs-6 p-5">This project was coded with <i class="fas fa-heart"></i> by Maddie Mincevich.</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        mirror: true,
+      });
+    </script>
   </body>
 </html>

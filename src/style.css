@@ -1,0 +1,175 @@
+body {
+  background-color: #747c8c;
+  color: white;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+}
+
+header {
+  background: url("https://images.pexels.com/photos/6430093/pexels-photo-6430093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 290px;
+  margin-bottom: 10px;
+}
+
+.heading {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.heading p {
+  margin-bottom: 0px;
+
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+}
+
+.heading h2 {
+  font-family: "PT Serif", serif;
+  font-size: 25px;
+}
+
+section {
+  font-family: "PT Serif", serif;
+  text-align: center;
+  color: white;
+  margin: 80px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 50%;
+  padding: 60px;
+  margin: 40px;
+  color: #293340;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project:hover {
+  color: #ff4081;
+}
+
+a {
+  text-decoration: none;
+  color: #f48fb1;
+}
+
+li a {
+  color: white;
+}
+
+a:hover {
+  color: #ff4081;
+}
+
+.contact-banner {
+  font-family: "PT Serif", serif;
+  background: linear-gradient(
+    90deg,
+    rgb(79, 91, 105) 0%,
+    13.2353%,
+    rgb(121, 130, 147) 26.4706%,
+    63.2353%,
+    rgb(33, 34, 38) 100%
+  );
+  padding: 60px 0px;
+  margin-top: 100px;
+}
+
+.skills {
+  margin: 80px;
+  text-align: left;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  padding: 60px;
+  padding-left: 100px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+footer {
+  background-color: #293340;
+  font-family: "PT Serif", serif;
+}
+
+.footer-links {
+  font-size: 30px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+.credits {
+  font-size: 8px;
+}
+
+i:hover {
+  color: #ff4081;
+}
+
+@media (max-width: 650px) {
+  header {
+    background: url("https://images.pexels.com/photos/6430093/pexels-photo-6430093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      no-repeat center center fixed;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  .navbar-nav {
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    background-color: #293340;
+    padding-left: 10px;
+    max-width: 25%;
+    border-radius: 10px;
+  }
+
+  .heading {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .heading h1 {
+    font-size: 50px;
+  }
+
+  .project {
+    padding: 30px;
+  }
+
+  .skills {
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0px;
+    padding: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer li {
+    margin: 0 auto;
+  }
+}
