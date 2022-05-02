@@ -166,7 +166,8 @@ i:hover {
   }
 
   .project {
-    padding: 30px;
+    padding: 20px;
+    font-size: 8px;
   }
 
   .skills {
